@@ -1,0 +1,20 @@
+.vider-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px; /* Adjust for mobile view */
+    height: 90vh; /* Full height like Instagram Reels */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.vider-player {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
