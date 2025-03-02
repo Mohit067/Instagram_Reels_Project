@@ -2,10 +2,8 @@ import { Video } from "@/components/molecules/Videos/Video";
 import useFetchAllVideos from "@/hooks/apis/useFetchAllVideos";
 import { QueryClient } from "@tanstack/react-query";    
 import { useEffect, useState } from "react";
-
+import './Reels.css'
 export const Reels = () => {
-
-    
 
     const [playing, setPlaying] = useState(1);
     const [videoDownload, setVideoDownload] = useState([]);
@@ -27,6 +25,7 @@ export const Reels = () => {
 
     return (
         <div className='app'>
+            <div className="container">
             { isVideoFetched && videoDownload.map((currentvideo) => (
             <Video 
                 url={currentvideo.url}
@@ -37,6 +36,7 @@ export const Reels = () => {
                 setPlaying={setPlaying}
             />
             ))}
+            </div>
         </div>
     );
 }

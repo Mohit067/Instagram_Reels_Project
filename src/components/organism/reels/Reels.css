@@ -1,0 +1,9 @@
+.container {
+    position: relative;
+    height: 90vh;
+    border-radius: 5px;
+    width: 50vh;
+    overflow: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: y mandatory;
+}
