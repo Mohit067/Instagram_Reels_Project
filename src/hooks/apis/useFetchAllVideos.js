@@ -8,7 +8,7 @@ export default function useFetchAllVideos() {
         isFetched: isVideoFetched,
         data: videos
     } = useQuery({
-        queryKey: "videos",
+        queryKey: ["videos"],
         queryFn: getAllVideos,
         cacheTime: 0, // no cache
     });
