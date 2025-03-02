@@ -1,0 +1,16 @@
+/* Reel Footer Styles */
+.reel-footer-left {
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+.reel-footer-bottom h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0.6rem;
+}
+  
